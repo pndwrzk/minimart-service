@@ -1,0 +1,10 @@
+const path = require('path');
+const dotenv = require("dotenv");
+dotenv.config({ path: ".env" });
+
+
+module.exports = {
+  config: path.resolve('src/config/migrations', 'sequelize-cli.js'),
+  'models-path': path.resolve('src/database', 'models'),
+  'migrations-path': path.resolve('src/database',  'migrations'),
+};

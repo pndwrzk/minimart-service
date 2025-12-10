@@ -1,0 +1,3 @@
+interface ResponseID {
+    id: number;
+}
