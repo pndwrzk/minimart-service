@@ -34,7 +34,7 @@ Seeder Data Awal
 ```bash
 npm run seed:category 
 ```
-- Seeder produk (untuk bisa tase case sort data produk, lakukan seeder lebih dari 1 kali di menit berbeda)
+- Seeder produk (untuk bisa test case sort data produk, lakukan seeder lebih dari 1 kali di menit berbeda)
 ```bash
 npm run seed:product
 ```
